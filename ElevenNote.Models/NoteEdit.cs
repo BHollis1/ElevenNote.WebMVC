@@ -10,6 +10,7 @@ namespace ElevenNote.Models
     {
         public int NoteID { get; set; }
         public string Title { get; set; }
+        public bool IsStarred { get; set; }
         public string Content { get; set; }
 
     }
